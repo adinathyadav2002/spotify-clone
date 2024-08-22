@@ -1,0 +1,66 @@
+.border {
+    /* border: 1px solid black; */
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.bg-grey {
+    background-color: #121212;
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 7px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+.block {
+    display: inline-block;
+}
+
+button {
+    all: unset;
+}
+
+button:focus {
+    outline: revert;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}

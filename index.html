@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotiy clone</title>
+    <meta name="description" content="This is simple spotify clone">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="flex justify-content bg-black">
+        <div class="left border">
+            <div class="home bg-grey rounded p-1">
+                <div class="logo">
+                    <a href="index.html"><img class="invert" src="logo.svg" alt="logo"></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html" class="flex align-items">
+                            <div><img class="invert icon" src="home.svg" alt="home"></div>
+                            <div style="margin-left: 15px;">Home</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="search.html" class="flex align-items">
+                            <div><img class="invert icon" src="search.svg" alt="search"></div>
+                            <div style="margin-left: 15px;">Search</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded p-1">
+                <div class="library-nav">
+                    <ul>
+                        <li class="flex" style="justify-content: space-between;">
+                            <a href="library.html" class="flex align-items">
+                                <div><img class="invert icon" src="libraryIcon.svg" alt="library"></div>
+                                <div style="margin-left: 15px;">Your Library</div>
+                            </a>
+                            <div>
+                                <button type="button" class="button-pointer">
+                                    <img src="add.svg" class="invert icon" alt="add_library">
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="libraries">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="right border">
+            <div class="flex sign-log-div rounded bg-grey" style="justify-content: space-between;">
+                <div class="back-forward-but flex align-items p-1">
+                    <button type="button" class="button-pointer">
+                        <img src="leftArrow.svg" class="left-but flex align-items justify-content invert icon"
+                        alt="Gobackward">
+                    </button>
+                    <button type="button" class="button-pointer">
+                        <img src="rightArrow.svg" class="right-but flex align-items justify-content invert icon"  
+                        alt="Goforward">
+                    </button>
+                </div>
+                <div class="flex align-items">
+                    <a href="#" class="sign-log flex justify-content align-items">Sign Up</a>
+                    <a href="#" class="sign-log flex justify-content align-items log-div">Log in</a>
+                </div>
+            </div>
+            <div class="albums">
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                <div class="card flex rounded">
+                    <img src="https://i.scdn.co/image/ab67616d00001e029bb2d30b01ac2cada8a8ad03" class="album-img m-1 rounded" alt="">
+                    <h3 class="text-left m-1">Title</h3>
+                    <p class="text-left" style="margin-left: 7px;">text</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-content align-items playbar rounded ">
+        <div>
+            <button type="button" class="button-pointer">
+                <img class="invert icon2 " src="pre.svg" alt="previous">
+            </button>
+        </div>
+        <div>
+            <button type="button" class="puase-play-but m-1 button-pointer">
+                <img class=" icon2" src="pause.svg" alt="previous">
+            </button>
+        </div>
+        <div>
+            <button type="button" class="button-pointer">
+                <img class="invert icon2 " src="next.svg" alt="previous">
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

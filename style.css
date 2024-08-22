@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 7px;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    background-color: black;
+}
+
+.button-pointer {
+    cursor: pointer;
+}
+
+.left {
+    width: 25vw;
+    height: 85vh;
+    margin-right: 7px;
+    /* margin-top:7px ; */
+}
+
+.home{
+    height: 20vh;
+}
+
+.right {
+    /* margin-top: 7px; */
+    width: 75vw;
+    height: 85vh;
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+    padding-top: 14px;
+}
+
+.library-icon {
+    margin-right: 15px;
+}
+
+.library-add {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.library{
+    height: 63vh;
+    margin-top: 7px;
+}
+
+.libraries{
+    height: 51.3vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-log-div {
+    height: 64px;
+    justify-content: flex-end;
+    width: 75vw;
+    opacity: 0.9;
+}
+
+.sign-log {
+    height: 6vh;
+    width: 110px;
+}
+
+.log-div {
+    background-color: white;
+    /* border: 1px solid white; */
+    border-radius: 30px;
+    color: black;
+    margin-right: 10px;
+}
+
+.left-but {
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    margin: 2px;
+}
+
+.right-but {
+    height: 26px;
+    width: 26px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.albums {
+    height: 75vh;
+    width: 75vw;
+    background-color: #1d1d1d;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    overflow: auto;
+    gap: 7px;
+    padding: 7px;
+}
+
+.card {
+    height: 20vw;
+    width: 11.2vw;
+    background-color: #1d1d1d;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.album-img{
+    height: 11vw;
+    width: 11vw;
+}
+
+.playbar{
+    background-color: #1d1d1d;
+    margin-top: 7px;
+    width: 100%;
+    height: 11.2vh;
+}
+
+.icon2{
+    height: 32px;
+    width: 32px;
+}
+
+.puase-play-but{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+}
